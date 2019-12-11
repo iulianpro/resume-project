@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ---------- Colours ---------- */
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
 }
 
-.bg-color-three-reason {
-    background-color: #ffffff;
+.bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -26,11 +26,28 @@
     background-color: #525252;
 }
 
-/* ---------- Special paddings/margins/text ---------- */
+.row-table {
+    display: table;
+}
 
-h1, 
-h2, 
-h3, 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
 h4 {
     margin: 0;
 }
@@ -53,6 +70,11 @@ h4 {
     display: table;
 }
 
+.cell {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -66,7 +88,7 @@ h4 {
     margin-bottom: 40px;
 }
 
-/* ---------- Heading ---------- */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -92,7 +114,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -101,19 +123,15 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-.menu-container {
+.menucontainer {
     font-size: 0;
-}
-
-#nav {
-    margin: 0;
 }
 
 #nav li {
@@ -121,27 +139,31 @@ header {
     padding: 0;
 }
 
-.menu-item {
+#nav {
+    margin: 0;
+}
+
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menu-item a {
+.menuitem a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #fff;
     height: 120px;
 }
 
-.menu-item a i {
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menu-item span {
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -152,24 +174,24 @@ header {
     letter-spacing: 2px;
 }
 
-/* ---------- Hover.css ---------- */
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ---------- Footer ---------- */
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-width: 120px;
+    min-height: 120px;
     margin: 0;
 }
 
 .cv-pdf i {
-    font-size: 22px;
+    font-size: 18px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
@@ -204,9 +226,21 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+    background: #e84610;
 }
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+    float: right;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
