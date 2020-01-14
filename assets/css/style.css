@@ -11,7 +11,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #e67e22;
 }
 
 .bg-color-work-history {
@@ -260,10 +260,16 @@ footer {
 
 /* ----------------------------------------Personal Info */
 
+.personal-info-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    color: #fafafa;
 }
 
 .personal-info-item .key,
