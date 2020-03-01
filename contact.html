@@ -13,6 +13,12 @@
         type="text/css" />
     <link rel="icon" href="favicon.ico" type="image/gif" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bSWcCNyuVh24ChwDkXg6x");
+        })();
+    </script>
     <title>Iulian P | Full Stack Software Developer</title>
 </head>
 
@@ -72,18 +78,16 @@
             </div>
             <div class="col-md-8 bg-color-three-reasons">
                 <div class="center-form">
-                    <form action="https://outlook.us4.list-manage.com/subscribe/post" method="POST">
-                        <input type="hidden" name="u" value="6f969697b37884de73812d29d">
-                        <input type="hidden" name="id" value="2ee38e0ea4">
-                        <input type="text" name="MERGE1" id="MERGE1" class="form-control" placeholder="Name"
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name"
                             required /><br>
-                        <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="Email"
+                        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email"
                             required /><br>
-                        <textarea name="MERGE2" id="MERGE2" placeholder="Project description" rows="5"
-                            class="form-control" required></textarea>
+                        <textarea name="projectsummary" id="projectsummary" placeholder="Your message" rows="5" class="form-control"
+                            required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <button type="submit" class="btn btn-secondary">Send</button>
                             </div>
                         </div>
                     </form>
@@ -153,6 +157,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
