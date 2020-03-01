@@ -19,7 +19,7 @@
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    background-color: #3498db;
 }
 
 .ui-menu-color-home {
@@ -369,6 +369,16 @@ footer {
 }
 
 /* ----------------------------------------Contact Form */
+
+.contact-left {
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.contact-list {
+    color: #fafafa;
+    padding-left: 16px;
+}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
