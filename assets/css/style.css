@@ -382,6 +382,10 @@ footer {
     padding-left: 16px;
 }
 
+.contact-list li {
+    margin-bottom: 20px;
+}
+
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300px;
