@@ -373,7 +373,9 @@ footer {
 /* ----------------------------------------Contact Form */
 
 .contact-left {
+    font-family: "Exo", sans-serif;
     color: #fafafa;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
