@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #a62f24;
 }
 
 .bg-color-three-reasons {
@@ -35,7 +35,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #043402;
 }
 
 .row-table {
@@ -198,7 +198,7 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #a62f24;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
