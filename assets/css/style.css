@@ -401,12 +401,6 @@ button[type="submit"] {
     border-color: #3498db;
 }
 
-.success {
-    font-family: "Exo", sans-serif;
-    padding-top: 15px;
-    color: green;
-}
-
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
