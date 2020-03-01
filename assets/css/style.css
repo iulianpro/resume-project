@@ -109,7 +109,9 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
 }
 
 .logo {
@@ -388,9 +390,9 @@ footer {
 }
 
 .center-form {
-    padding-top: 10px;
+    padding-top: 30px;
     margin: 10px auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 button[type="submit"] {
@@ -403,9 +405,23 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
+@media(min-width: 576px) {
+    .heading {
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .center-form {
+        padding-top: 50px;
+        min-height: 240px;
+        margin: 10px auto;
+        max-width: 75%;
+    }
+}
+
 @media(min-width: 992px) {
     .center-form {
-        padding-top: 30px;
+        padding-top: 50px;
         min-height: 240px;
         margin: 10px auto;
         max-width: 50%;
