@@ -102,6 +102,15 @@ h4 {
     margin-bottom: 40px;
 }
 
+.row-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-block {
+    margin-top: -20px;
+}
+
 /*--------------------------------------------Heading*/
 
 .update-bg {
@@ -164,6 +173,7 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+    border-top-right-radius: 20px;
 }
 
 #nav {
