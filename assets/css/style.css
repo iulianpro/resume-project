@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #a62f24;
+    background-color: #747474;
 }
 
 .bg-color-three-reasons {
@@ -225,12 +225,13 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+    border-top-right-radius: 20px;
 }
 
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #a62f24;
+    background-color: #747474;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
