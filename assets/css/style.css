@@ -65,6 +65,15 @@ h4 {
     margin: 0;
 }
 
+a {
+    color: #e67e22;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a62f24;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
