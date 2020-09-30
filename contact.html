@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="robots" content="noindex">
-    
-        <!-- Frameworks -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-            type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-            type="text/css" />
-    
-        <!-- Favicon and local style -->
-        <link rel="icon" href="favicon.ico" type="image/gif" />
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Iulian P. | Junior Software Developer</title>
-    
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179035069-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-    
-            gtag('config', 'UA-179035069-1');
-        </script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
+
+    <!-- Frameworks -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+
+    <!-- Favicon and local style -->
+    <link rel="icon" href="favicon.ico" type="image/gif" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iulian P. | Junior Software Developer</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179035069-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179035069-1');
+    </script>
+
+    <!-- EmailJS Script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bSWcCNyuVh24ChwDkXg6x");
+        })();
+    </script>
+</head>
 
 <body>
     <header>
@@ -96,7 +104,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="center-form">
-                            <form onsubmit="return sendMail(this);">
+                            <form id="myForm" onsubmit="return sendMail(this);">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Name"
                                     required /><br>
                                 <input type="email" name="emailaddress" id="emailaddress" class="form-control"
