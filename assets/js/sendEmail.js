@@ -13,8 +13,10 @@ function sendMail(contactForm) {
                 console.log("FAILED", error);
             }
         );
+    document.getElementById('submit-button').innerHTML = '<img class="spiner" src="assets/images/loading.gif" alt="">';
     setTimeout(function () {
         document.getElementById("myForm").reset();
+        document.getElementById('submit-button').innerHTML = 'Send';
     }, 3000);
     return false;  // To block from loading a new page
 }

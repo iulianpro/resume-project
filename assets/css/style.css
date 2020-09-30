@@ -120,6 +120,11 @@ a:hover {
     margin-top: -20px;
 }
 
+.spiner {
+    width: 21px;
+    height: 21px;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
