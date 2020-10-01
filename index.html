@@ -80,7 +80,7 @@
                 <div class="personal-info-item">
                     <div class="key">
                         <p class="uppercase">
-                            Name
+                            Name:
                         </p>
                     </div>
                     <div class="value">
@@ -92,7 +92,7 @@
                 <div class="personal-info-item">
                     <div class="key">
                         <p class="uppercase">
-                            Address
+                            Address:
                         </p>
                     </div>
                     <div class="value">
@@ -104,24 +104,24 @@
                 <div class="personal-info-item">
                     <div class="key">
                         <p class="uppercase">
-                            Phone
+                            Phone:
                         </p>
                     </div>
                     <div class="value">
-                        <p>
-                            (UK) +44 7424 693338
+                        <p onclick="showPhone()" id="personal-phone" class="personal-phone-hide">
+                            Click to see the phone
                         </p>
                     </div>
                 </div>
                 <div class="personal-info-item">
                     <div class="key">
                         <p class="uppercase">
-                            Email
+                            Email:
                         </p>
                     </div>
                     <div class="value">
-                        <p>
-                            iulian[dot]prodea[at]outlook.com
+                        <p onclick="showEmail()" id="personal-email" class="personal-email-hide">
+                            Click to see the email
                         </p>
                     </div>
                 </div>
@@ -265,6 +265,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>

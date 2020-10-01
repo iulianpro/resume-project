@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -48,8 +47,7 @@
     float: none;
 }
 
-.section-heading,
-.history-heading {
+.section-heading, .history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -58,10 +56,7 @@
 
 /* ----------------------------------------Special paddings/margins/text */
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     margin: 0;
 }
 
@@ -299,14 +294,12 @@ footer {
     color: #fafafa;
 }
 
-.personal-info-item .key,
-.personal-info-item .value {
+.personal-info-item .key, .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-.personal-info-item .key p,
-.personal-info-item .value p {
+.personal-info-item .key p, .personal-info-item .value p {
     margin: 0;
 }
 
@@ -324,6 +317,11 @@ footer {
 .personal-info-item .value {
     width: 65%;
     position: relative;
+}
+
+.personal-phone-hide, .personal-email-hide {
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
 }
 
 /* ----------------------------------------Skills */
@@ -445,14 +443,12 @@ button[type="submit"] {
         margin-left: 50px;
         text-align: left;
     }
-
     .center-form {
         padding-top: 50px;
         min-height: 240px;
         margin: 10px auto;
         max-width: 75%;
     }
-
     .progress-section {
         margin: 40px 20px 20px;
     }
@@ -465,7 +461,6 @@ button[type="submit"] {
         margin: 10px auto;
         max-width: 50%;
     }
-
     .progress-section {
         margin: 40px 40px;
     }
