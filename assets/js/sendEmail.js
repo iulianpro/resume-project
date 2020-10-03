@@ -28,7 +28,7 @@ function sendMail(contactForm) {
 function showPhone() {
     let pass = prompt('Please enter the PIN to see this information', '')
     if (pass == '5061') {
-        document.getElementById('personal-phone').innerHTML = '${{ secret.SECRET_PHONE }}';
+        document.getElementById('personal-phone').innerHTML = '+44 7424 693338';
         document.getElementById('personal-phone').classList.remove('personal-phone-hide');
         document.getElementById('personal-phone').classList.add('personal-info-item');
     } else {
