@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="robots" content="noindex">
-    
-        <!-- Frameworks -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-            type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-            type="text/css" />
-    
-        <!-- Favicon and local style -->
-        <link rel="icon" href="favicon.ico" type="image/gif" />
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Iulian P. | Junior Software Developer</title>
-    
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179035069-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-    
-            gtag('config', 'UA-179035069-1');
-        </script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
 
-<body>
+    <!-- Frameworks -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+
+    <!-- Favicon and local style -->
+    <link rel="icon" href="favicon.ico" type="image/gif" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iulian P. | Junior Software Developer</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179035069-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179035069-1');
+    </script>
+</head>
+
+<body oncontextmenu="return false">
     <header>
         <div class="row no-gutters">
             <a class="col-md-4 logo" href="/"></a>
@@ -58,7 +58,7 @@
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="assets/cv/Julian-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i
+                                <a onclick="showCV()" id="personal-CV" href="" class="hvr-sweep-to-bottom"><i
                                         class="fa fa-download" aria-hidden="true"></i><span>CV</span></a>
                             </li>
                         </ul>
@@ -130,7 +130,8 @@
                             <div class="col-10">
                                 <h4 class="three-reasons-heading uppercase">Back end</h4>
                                 <p>
-                                    Able to develop a eCommerce app using technologies: Python, Django Framework, Stripe, AWS S3. I am currently studying PHP.
+                                    Able to develop a eCommerce app using technologies: Python, Django Framework,
+                                    Stripe, AWS S3. I am currently studying PHP.
                                 </p>
                             </div>
                         </div>
@@ -277,6 +278,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
