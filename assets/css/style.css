@@ -116,8 +116,9 @@ a:hover {
 }
 
 .spiner {
-    width: 35px;
+    width: 135px;
     height: 21px;
+    margin-top: 20vh;
 }
 
 /*--------------------------------------------Heading*/
@@ -326,6 +327,34 @@ footer {
 
 .cv-screen {
     height: 100vh;
+}
+
+/* styled external sweet alert classes */
+
+.swal-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.swal-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.swal-footer {
+    text-align: center;
+}
+
+.swal-button {
+    background-color: #e67e22;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #f77300;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 /* ----------------------------------------Skills */
