@@ -148,7 +148,7 @@ function showEmail() {
 }
 
 function showCertificate() {
-    return "5061" == prompt("Please enter the PIN to access this information", "") ? (document.getElementById("personal-certificate").setAttribute("target", "_blank"), document.getElementById("personal-certificate").href = "https://www.credential.net/649d93fa-e584-4425-a024-9996c2c4f70c") : (alert("The PIN does not match, please use contact form to ask the PIN"), document.getElementById("personal-certificate").href = "contact.html"), !1
+    return "5061" == prompt("Please enter the PIN to access this information", "") ? (document.getElementById("personal-certificate").setAttribute("target", "_blank"), document.getElementById("personal-certificate").href = "https://www.credential.net/649d93fa-e584-4425-a024-9996c2c4f70c") : (alert("The PIN does not match, please use contact form to ask the PIN"), document.getElementById("personal-certificate").href = "contact.html")
 }
 
 function showCV() {
@@ -162,8 +162,4 @@ function showCV() {
         alert("The PIN does not match, please use contact form to ask the PIN");
         window.close();
     }
-}
-
-function showCVFooter() {
-    return "5061" == prompt("Please enter the PIN to access this information", "") ? (document.getElementById("personal-CV-footer").setAttribute("target", "_blank"), document.getElementById("personal-CV-footer").href = "assets/cv/Julian-cv.pdf") : (alert("The PIN does not match, please use contact form to ask the PIN"), document.getElementById("personal-CV-footer").href = "contact.html"), !1
 }
