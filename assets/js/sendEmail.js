@@ -2,3 +2,14 @@ shortcut={all_shortcuts:{},add:function(t,e,o){var a={type:"keydown",propagate:!
 let correctCaptcha = function(response) {
     alert(response);
 };
+const forms = document.querySelectorAll('div.g-recaptcha');
+forms.forEach(form=> {
+    const formParentElement = form.parentElement;
+
+    formParentElement.addEventListener("submit", e => {
+        if (grecaptcha.getResponse() === '') {
+            e.preventDefault();
+            swal('Please check the recaptcha');
+        }
+    }, false)
+});
