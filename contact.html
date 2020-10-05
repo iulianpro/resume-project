@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- Favicon and local style -->
     <link rel="icon" href="favicon.ico" type="image/gif" />
@@ -112,6 +113,10 @@
                                     placeholder="Email" required /><br>
                                 <textarea name="projectsummary" id="projectsummary" placeholder="Your message" rows="5"
                                     class="form-control" required></textarea>
+                                <div class="mt-4 mb-1">
+                                    <div id="security d-flex align-content-center" class="g-recaptcha" data-sitekey="6LdVqcMZAAAAALE1nPSXxJTb0PFCeNbKfjL8B37J"
+                                        data-callback="correctCaptcha"></div>
+                                </div>
                                 <div class="form-row text-center">
                                     <div class="col">
                                         <button id="submit-button" type="submit" class="btn btn-secondary">Send</button>
