@@ -369,13 +369,17 @@ footer {
     position: absolute;
     left: 0;
     font-weight: 400;
-    padding: 3px 30px 2px 10px;
+    padding: 3px 30px 5px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
     margin: 40px 0 20px;
+}
+
+.progress .progress-bar span {
+    margin-left: 120px;
 }
 
 .learning {
