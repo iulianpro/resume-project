@@ -2,7 +2,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #747474;
+    background-image: url('/assets/images/section-bg.jpg');
 }
 
 .bg-color-three-reasons {
@@ -221,7 +221,7 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #747474;
+    background-image: url('/assets/images/section-bg.jpg');
     color: #fafafa;
     min-height: 120px;
     margin: 0;
