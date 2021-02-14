@@ -501,4 +501,7 @@ button[type="submit"] {
     .progress-section {
         margin: 40px 40px;
     }
+    .progress-type {
+        padding: 3px 30px 5px 10px;
+    }
 }
