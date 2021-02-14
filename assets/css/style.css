@@ -369,7 +369,7 @@ footer {
     position: absolute;
     left: 0;
     font-weight: 400;
-    padding: 3px 30px 5px 10px;
+    padding: 3px 10px 5px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
