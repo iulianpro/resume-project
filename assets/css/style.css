@@ -473,6 +473,11 @@ button[type="submit"] {
     border-color: #3498db;
 }
 
+.captcha-center {
+    display: flex;
+    justify-content: center;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 576px) {
