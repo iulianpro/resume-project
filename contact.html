@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     
     <!-- Favicon and local style -->
     <link rel="icon" href="favicon.ico" type="image/gif" />
@@ -104,6 +105,7 @@
                     <div class="col">
                         <div class="center-form">
                             <form id="myForm" onsubmit="return sendMail(this);">
+                                <div class="g-recaptcha" data-sitekey="6LdVqcMZAAAAALE1nPSXxJTb0PFCeNbKfjL8B37J"></div>
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Name"
                                     required /><br>
                                 <input type="email" name="emailaddress" id="emailaddress" class="form-control"
