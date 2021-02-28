@@ -234,7 +234,7 @@ ul li.ui-menu-color-contact {
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2) !important;
     height: 100%;
 }
 
