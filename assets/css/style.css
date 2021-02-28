@@ -17,6 +17,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-projects-list {
+    background-color: #aa2220;
+}
+
 .bg-color-contact {
     background-color: #3498db;
 }
@@ -27,6 +31,10 @@
 
 .ui-menu-color-resume {
     background-color: #9b59b6;
+}
+
+.ui-menu-color-projects {
+    background-color: #aa2220;
 }
 
 .ui-menu-color-contact {
@@ -52,6 +60,10 @@
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.project-item {
+    margin-bottom: 50px;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -172,7 +184,6 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
-    border-top-right-radius: 20px;
 }
 
 #nav {
@@ -183,6 +194,10 @@ header {
     height: 120px;
     text-align: center;
     padding: 0;
+}
+
+ul li.ui-menu-color-contact {
+    height: 90px;
 }
 
 .menuitem a {
@@ -493,6 +508,15 @@ button[type="submit"] {
     }
     .progress-section {
         margin: 40px 20px 20px;
+    }
+}
+
+@media(min-width: 768px) {
+    #nav li {
+        border-top-right-radius: 20px;
+    }
+    ul li.ui-menu-color-contact {
+        height: 120px;
     }
 }
 
