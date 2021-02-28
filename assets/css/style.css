@@ -196,7 +196,7 @@ header {
     padding: 0;
 }
 
-ul li.ui-menu-color-contact {
+ul li.ui-menu-color-download {
     height: 90px;
 }
 
@@ -520,7 +520,7 @@ button[type="submit"] {
     #nav li {
         border-top-right-radius: 20px;
     }
-    ul li.ui-menu-color-contact {
+    ul li.ui-menu-color-download {
         height: 120px;
     }
 }
