@@ -68,7 +68,7 @@
     color: transparent;
 }
 
-.project-item .project-item-overlay h3, .project-item .project-item-overlay ul {
+.project-item .project-item-overlay h4, .project-item .project-item-overlay ul {
     position: absolute;
     color: inherit;
     left: 50%;
@@ -76,20 +76,20 @@
     z-index: 9999;
 }
 
-.project-item .project-item-overlay h3 a {
+.project-item .project-item-overlay h4 a {
     color: inherit;
 }
 
-.project-item .project-item-overlay h3 a:hover {
+.project-item .project-item-overlay h4 a:hover {
     color: #abacab;
 }
 
-.project-item .project-item-overlay h3 {
-    top: 20%;
+.project-item .project-item-overlay h4 {
+    top: 10%;
 }
 
 .project-item .project-item-overlay ul {
-    top: 35%;
+    top: 25%;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -551,6 +551,12 @@ button[type="submit"] {
     .progress-section {
         margin: 40px 20px 20px;
     }
+    .project-item .project-item-overlay h4 {
+        top: 20%;
+    }
+    .project-item .project-item-overlay ul {
+        top: 35%;
+    }
 }
 
 @media(min-width: 768px) {
@@ -574,5 +580,20 @@ button[type="submit"] {
     }
     .progress-type {
         padding: 3px 30px 5px 10px;
+    }
+    .project-item .project-item-overlay h4 {
+        top: 10%;
+    }
+    .project-item .project-item-overlay ul {
+        top: 25%;
+    }
+}
+
+@media(min-width: 1199px) {
+    .project-item .project-item-overlay h4 {
+        top: 20%;
+    }
+    .project-item .project-item-overlay ul {
+        top: 35%;
     }
 }
