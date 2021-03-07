@@ -64,6 +64,41 @@
 
 .project-item {
     margin-bottom: 50px;
+    position: relative;
+    color: transparent;
+}
+
+.project-item .project-item-overlay h3, .project-item .project-item-overlay ul {
+    position: absolute;
+    color: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.project-item .project-item-overlay h3 a {
+    color: inherit;
+}
+
+.project-item .project-item-overlay h3 a:hover {
+    color: #abacab;
+}
+
+.project-item .project-item-overlay h3 {
+    top: 20%;
+}
+
+.project-item .project-item-overlay ul {
+    top: 35%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-item .project-item-overlay ul li {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -234,8 +269,10 @@ ul li.ui-menu-color-download {
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.85) !important;
     height: 100%;
+    z-index: 999;
+    transition-duration: 0s;
 }
 
 /* ----------------------------------------Footer */
