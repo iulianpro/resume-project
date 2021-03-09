@@ -535,6 +535,12 @@ button[type="submit"] {
     justify-content: center;
 }
 
+.hourglass {
+    width: 35px;
+    height: auto;
+    overflow: hidden;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 576px) {
