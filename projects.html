@@ -77,22 +77,39 @@
             <div class="col-md-4 bg-color-projects-list section-column" style="min-height: 350px;">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="section-heading personal-info-heading uppercase mb-3">
+                        <h3 class="section-heading personal-info-heading uppercase mb-5">
                             Projects
                         </h3>
                     </div>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="font-weight-light">
-                            In progress
-                        </p>
-                    </div>
-                    <div class="value">
-                        <div class="hourglass">
-                            <img class="img-fluid" src="/assets/images/loading.gif" alt="hourglass">
-                        </div>
-                    </div>
+                <div id="myBtnContainer">
+                    <button class="btn btn-secondary btn-sm active" onclick="filterSelection('all')">All
+                        Projects</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Wordpress')">WordPress</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Full_Custom')">Full
+                        Custom</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('HTML5')">HTML5</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('CSS3')">CSS3</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Bootstrap4')">Bootstrap</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('JavaScript')">JavaScript</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('jQuery')">jQuery</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('EmailJS')">EmailJS</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Python')">Python</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Flask')">Flask</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Django')">Django</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('SQLite_DB')">SQLite DB</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('MongoDB')">Mongo DB</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('AWS_S3')">AWS S3</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Heroku')">Heroku</button>
+                    <br>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Stripe_API')">Stripe API</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Google_API')">Google Map API</button>
                 </div>
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column">
@@ -102,9 +119,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 JavaScript jQuery EmailJS Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/personal.png" class="img-fluid" alt="">
+                            <img src="/assets/images/personal.png" class="img-fluid" alt="Iulian P">
                             <div class="project-item-overlay">
                                 <h4><a href="https://iulian.pro/" target="_blank" rel="noopener">Iulian P.</a></h4>
                                 <ul class="text-center">
@@ -118,9 +136,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter Wordpress HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/sigma-studies.png" class="img-fluid" alt="">
+                            <img src="/assets/images/relentless-legal-solutions.png" class="img-fluid"
+                                alt="Relentless LS">
+                            <div class="project-item-overlay">
+                                <h4><a href="https://relentless-legal-solutions.com/" target="_blank"
+                                        rel="noopener">Relentless LS</a></h4>
+                                <ul class="text-center">
+                                    <li>Commercial project</li>
+                                    <li>Wordpress</li>
+                                    <li>Custom HTML</li>
+                                    <li>Custom CSS</li>
+                                    <li>Custom JavaScript/jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 filter Wordpress HTML5 CSS3 JavaScript jQuery">
+                        <div class="project-item hvr-sweep-to-bottom">
+                            <img src="/assets/images/sigma-studies.png" class="img-fluid" alt="Sigma Studies">
                             <div class="project-item-overlay">
                                 <h4><a href="https://www.sigmastudies.co.uk/" target="_blank" rel="noopener">Sigma
                                         Studies</a></h4>
@@ -134,9 +169,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter Wordpress HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/jh-valeting.png" class="img-fluid" alt="">
+                            <img src="/assets/images/jh-valeting.png" class="img-fluid" alt="JH Valeting">
                             <div class="project-item-overlay">
                                 <h4><a href="https://www.jh-valeting.universalwebdesigner.co.uk/" target="_blank"
                                         rel="noopener">JH Valeting</a></h4>
@@ -150,12 +185,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter Wordpress HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/creativa-venetian.png" class="img-fluid" alt="">
+                            <img src="/assets/images/creativa-venetian.png" class="img-fluid" alt="Creativa VD">
                             <div class="project-item-overlay">
                                 <h4><a href="https://www.creativa-venetian-designs.co.uk/" target="_blank"
-                                        rel="noopener">Creativa</a></h4>
+                                        rel="noopener">Creativa VD</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress</li>
@@ -166,9 +201,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter Wordpress HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/glamouricious.png" class="img-fluid" alt="">
+                            <img src="/assets/images/glamouricious.png" class="img-fluid" alt="Glamouricious">
                             <div class="project-item-overlay">
                                 <h4><a href="https://www.glamouricious.co.uk/" target="_blank"
                                         rel="noopener">Glamouricious</a></h4>
@@ -182,9 +217,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div
+                        class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django SQLite_DB AWS_S3 Stripe_API Heroku Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/online-shop.png" class="img-fluid" alt="">
+                            <img src="/assets/images/online-shop.png" class="img-fluid" alt="Online Shop">
                             <div class="project-item-overlay">
                                 <h4><a href="https://iulianpro-online-shop.herokuapp.com/" target="_blank"
                                         rel="noopener">Online Shop</a></h4>
@@ -199,9 +235,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Flask MongoDB Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/shifts-manager.png" class="img-fluid" alt="">
+                            <img src="/assets/images/shifts-manager.png" class="img-fluid" alt="Shifts Manager">
                             <div class="project-item-overlay">
                                 <h4><a href="https://iulianpro-shifts-manager.herokuapp.com/" target="_blank"
                                         rel="noopener">Shifts Manager</a></h4>
@@ -216,12 +252,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Google_API Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/discover-transylvania.png" class="img-fluid" alt="">
+                            <img src="/assets/images/discover-transylvania.png" class="img-fluid" alt="Transilvania">
                             <div class="project-item-overlay">
                                 <h4><a href="https://iulianpro.github.io/discover-transylvania/" target="_blank"
-                                        rel="noopener">Discover</a></h4>
+                                        rel="noopener">Transilvania</a></h4>
                                 <ul class="text-center">
                                     <li>School project</li>
                                     <li>HTML5</li>
@@ -233,11 +269,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/my-city.png" class="img-fluid" alt="">
+                            <img src="/assets/images/my-city.png" class="img-fluid" alt="My City">
                             <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro.github.io/my-city/" target="_blank" rel="noopener">My City</a></h4>
+                                <h4><a href="https://iulianpro.github.io/my-city/" target="_blank" rel="noopener">My
+                                        City</a></h4>
                                 <ul class="text-center">
                                     <li>School project</li>
                                     <li>HTML5</li>
@@ -247,6 +284,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -256,7 +294,7 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    I am skilled in creating Wordpress and WooCommerce websites, from simple projects to complex
+                    I am skilled in creating Wordpress and Full Custom websites, from simple projects to complex
                     projects and also web applications in Python, Django Framework. <i class="fa fa-copyright"></i> 2021
                 </p>
             </div>
@@ -308,6 +346,7 @@
         crossorigin="anonymous"></script>
     <script src="/assets/js/sendEmail.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/filter.js"></script>
 </body>
 
 </html>

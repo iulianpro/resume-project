@@ -541,6 +541,20 @@ button[type="submit"] {
     overflow: hidden;
 }
 
+.filter {
+    display: none;
+}
+
+#myBtnContainer .btn {
+    margin-bottom: 20px;
+    min-width: 91px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.15);
+}
+
+#myBtnContainer .btn.active {
+    background-color: #9b59b6;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 576px) {
