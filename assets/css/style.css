@@ -51,7 +51,7 @@
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 10px 30px;
     float: none;
 }
 
@@ -140,12 +140,6 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -204,7 +198,7 @@ header {
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     color: #fff;
 }
 
@@ -226,7 +220,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
 }
@@ -239,7 +233,7 @@ ul li.ui-menu-color-download {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 100px;
 }
 
 .menuitem a i {
@@ -255,7 +249,7 @@ ul li.ui-menu-color-download {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -264,7 +258,7 @@ ul li.ui-menu-color-download {
 
 .hvr-sweep-to-top:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 100px;
     border-top-right-radius: 20px;
 }
 
@@ -324,7 +318,7 @@ footer {
 }
 
 #footer-details {
-    padding: 60px;
+    padding: 60px 20px;
 }
 
 /* ----------------------------------------Three Reasons */
@@ -432,7 +426,7 @@ footer {
 }
 
 .progress-section {
-    margin: 40px 0 20px;
+    margin: 20px 0 20px;
 }
 
 .progress .progress-bar span {
@@ -558,6 +552,11 @@ button[type="submit"] {
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 576px) {
+    .section-column {
+        display: table-cell;
+        padding: 0 30px 30px;
+        float: none;
+    }
     .heading {
         margin-left: 50px;
         text-align: left;
@@ -568,14 +567,17 @@ button[type="submit"] {
         margin: 10px auto;
         max-width: 75%;
     }
-    .progress-section {
-        margin: 40px 20px 20px;
-    }
     .project-item .project-item-overlay h4 {
         top: 20%;
     }
     .project-item .project-item-overlay ul {
         top: 35%;
+    }
+    .menuitem span {
+        font-size: 14px;
+    }
+    #footer-details {
+        padding: 60px;
     }
 }
 
@@ -594,9 +596,6 @@ button[type="submit"] {
         min-height: 240px;
         margin: 10px auto;
         max-width: 50%;
-    }
-    .progress-section {
-        margin: 40px 40px;
     }
     .progress-type {
         padding: 3px 30px 5px 10px;
