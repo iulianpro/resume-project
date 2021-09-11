@@ -554,8 +554,12 @@ button[type="submit"] {
 
 /* ----------------------------------------Projects */
 
-.row .filter {
-    padding: 25px;
+#projects-row {
+    margin-top: -15px;
+}
+
+.row .filter:nth-child(n+2) {
+    padding: 0 25px 25px;
 }
 
 /* ----------------------------------------Media Queries */
