@@ -549,6 +549,12 @@ button[type="submit"] {
     background-color: #9b59b6;
 }
 
+/* ----------------------------------------Projects */
+
+.row .filter {
+    padding: 25px;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 576px) {
