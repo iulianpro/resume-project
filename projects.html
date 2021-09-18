@@ -8,12 +8,9 @@
     <meta name="robots" content="noindex">
 
     <!-- Frameworks -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Favicon and local style -->
@@ -79,6 +76,8 @@
                     <button class="btn btn-secondary btn-sm active" onclick="filterSelection('all')">All
                         Projects</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('WordpressDivi')">WordPress Divi</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Woocommerce')">Woocommerce</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('WordpressElementor')">WordPress Elementor</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('Full_Custom')">Full
                         Custom</button>
                     <br>
@@ -112,13 +111,26 @@
                     </div>
                 </div>
                 <div id="projects-row" class="row">
-                    <div
-                        class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery API Full_Custom">
+                    <div class="col-12 col-lg-6 filter WordpressDivi Woocommerce HTML5 CSS3 JavaScript jQuery">
+                        <div class="project-item hvr-sweep-to-bottom">
+                            <img src="/assets/images/clb.png" class="img-fluid" alt="CLB Jewellers">
+                            <div class="project-item-overlay">
+                                <h4><a href="https://clbjewellers.universalwebdesigns.co.uk/" target="_blank" rel="noopener">CLB (in progress)</a></h4>
+                                <ul class="text-center">
+                                    <li>Commercial project</li>
+                                    <li>Wordpress, Woocommerce</li>
+                                    <li>Custom HTML</li>
+                                    <li>Custom CSS</li>
+                                    <li>Custom JavaScript/jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery API Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/jquery-ajax-api.png" class="img-fluid" alt="Test API">
                             <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro.github.io/csc_app/" target="_blank"
-                                        rel="noopener">API Project</a></h4>
+                                <h4><a href="https://iulianpro.github.io/csc_app/" target="_blank" rel="noopener">API Project</a></h4>
                                 <ul class="text-center">
                                     <li>Personal project</li>
                                     <li>HTML5, CSS3</li>
@@ -130,11 +142,9 @@
                     </div>
                     <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/energycentric.png" class="img-fluid"
-                                alt="Energycentric">
+                            <img src="/assets/images/energycentric.png" class="img-fluid" alt="Energycentric">
                             <div class="project-item-overlay">
-                                <h4><a href="http://ecentric.universalwebdesigns.co.uk/" target="_blank"
-                                        rel="noopener">Energycentric</a></h4>
+                                <h4><a href="http://ecentric.universalwebdesigns.co.uk/" target="_blank" rel="noopener">Energycentric</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -145,13 +155,26 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-lg-6 filter WordpressElementor HTML5 CSS3 JavaScript jQuery">
+                        <div class="project-item hvr-sweep-to-bottom">
+                            <img src="/assets/images/globewebdesign.png" class="img-fluid" alt="GlobeWebDesign">
+                            <div class="project-item-overlay">
+                                <h4><a href="https://globewebdesign.eu" target="_blank" rel="noopener">GlobeWebDesign</a></h4>
+                                <ul class="text-center">
+                                    <li>Commercial project</li>
+                                    <li>Wordpress, Elementor</li>
+                                    <li>Custom HTML</li>
+                                    <li>Custom CSS</li>
+                                    <li>Custom JavaScript/jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/universal_web_design.png" class="img-fluid"
-                                alt="Universal Web Design">
+                            <img src="/assets/images/universal_web_design.png" class="img-fluid" alt="Universal Web Design">
                             <div class="project-item-overlay">
-                                <h4><a href="https://universalwebdesign.co.uk/blog/" target="_blank"
-                                        rel="noopener">UWD Blog</a></h4>
+                                <h4><a href="https://universalwebdesign.co.uk/blog/" target="_blank" rel="noopener">UWD Blog</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -166,8 +189,7 @@
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/jh-valeting.png" class="img-fluid" alt="JH Valeting">
                             <div class="project-item-overlay">
-                                <h4><a href="https://www.jh-valeting.universalwebdesigner.co.uk/" target="_blank"
-                                        rel="noopener">JH Valeting</a></h4>
+                                <h4><a href="https://www.jh-valeting.universalwebdesigner.co.uk/" target="_blank" rel="noopener">JH Valeting</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -182,8 +204,7 @@
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/creativa-venetian.png" class="img-fluid" alt="Creativa VD">
                             <div class="project-item-overlay">
-                                <h4><a href="https://www.creativa-venetian-designs.co.uk/" target="_blank"
-                                        rel="noopener">Creativa VD</a></h4>
+                                <h4><a href="https://www.creativa-venetian-designs.co.uk/" target="_blank" rel="noopener">Creativa VD</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -198,8 +219,7 @@
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/glamouricious.png" class="img-fluid" alt="Glamouricious">
                             <div class="project-item-overlay">
-                                <h4><a href="https://www.glamouricious.co.uk/" target="_blank"
-                                        rel="noopener">Glamouricious</a></h4>
+                                <h4><a href="https://www.glamouricious.co.uk/" target="_blank" rel="noopener">Glamouricious</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -212,11 +232,9 @@
                     </div>
                     <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/relentless-legal-solutions.png" class="img-fluid"
-                                alt="Relentless LS">
+                            <img src="/assets/images/relentless-legal-solutions.png" class="img-fluid" alt="Relentless LS">
                             <div class="project-item-overlay">
-                                <h4><a href="https://relentless-legal-solutions.com/" target="_blank"
-                                        rel="noopener">Relentless LS</a></h4>
+                                <h4><a href="https://relentless-legal-solutions.com/" target="_blank" rel="noopener">Relentless LS</a></h4>
                                 <ul class="text-center">
                                     <li>Commercial project</li>
                                     <li>Wordpress, Divi</li>
@@ -227,13 +245,11 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django SQLite_DB AWS_S3 API Heroku Full_Custom">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django SQLite_DB AWS_S3 API Heroku Full_Custom">
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/online-shop.png" class="img-fluid" alt="Online Shop">
                             <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro-online-shop.herokuapp.com/" target="_blank"
-                                        rel="noopener">Online Shop</a></h4>
+                                <h4><a href="https://iulianpro-online-shop.herokuapp.com/" target="_blank" rel="noopener">Online Shop</a></h4>
                                 <ul class="text-center">
                                     <li>School project</li>
                                     <li>HTML5, CSS3</li>
@@ -249,8 +265,7 @@
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/shifts-manager.png" class="img-fluid" alt="Shifts Manager">
                             <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro-shifts-manager.herokuapp.com/" target="_blank"
-                                        rel="noopener">Shifts Manager</a></h4>
+                                <h4><a href="https://iulianpro-shifts-manager.herokuapp.com/" target="_blank" rel="noopener">Shifts Manager</a></h4>
                                 <ul class="text-center">
                                     <li>School project</li>
                                     <li>HTML5, CSS3</li>
@@ -266,8 +281,7 @@
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/discover-transylvania.png" class="img-fluid" alt="Transilvania">
                             <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro.github.io/discover-transylvania/" target="_blank"
-                                        rel="noopener">Transilvania</a></h4>
+                                <h4><a href="https://iulianpro.github.io/discover-transylvania/" target="_blank" rel="noopener">Transilvania</a></h4>
                                 <ul class="text-center">
                                     <li>School project</li>
                                     <li>HTML5</li>
@@ -364,8 +378,7 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"
-        integrity="sha512-PEsccDx9jqX6Dh4wZDCnWMaIO3gAaU0j46W//sSqQhUQxky6/eHZyeB3NrXD2xsyugAKd4KPiDANkcuoEa2JuA=="
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js" integrity="sha512-PEsccDx9jqX6Dh4wZDCnWMaIO3gAaU0j46W//sSqQhUQxky6/eHZyeB3NrXD2xsyugAKd4KPiDANkcuoEa2JuA=="
         crossorigin="anonymous"></script>
     <script src="/assets/js/sendEmail.js"></script>
     <script src="/assets/js/script.js"></script>
