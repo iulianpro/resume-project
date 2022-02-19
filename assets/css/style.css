@@ -558,7 +558,7 @@ button[type="submit"] {
     margin-top: -15px;
 }
 
-.row .filter:nth-child(n+2) {
+.row .filter {
     padding: 0 25px 25px;
 }
 
