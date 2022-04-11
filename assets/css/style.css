@@ -76,7 +76,7 @@
 }
 
 .project-item .project-item-overlay h4 a {
-    color: #fff;
+    color: transparent;
 }
 
 .project-item .project-item-overlay h4 a:hover {
