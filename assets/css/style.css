@@ -76,11 +76,7 @@
 }
 
 .project-item .project-item-overlay h4 a {
-    color: transparent;
-}
-
-.project-item .project-item-overlay h4 a:hover {
-    color: #abacab;
+    color: inherit;
 }
 
 .project-item .project-item-overlay h4 {
