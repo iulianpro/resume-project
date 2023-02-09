@@ -89,6 +89,7 @@
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('JavaScript')">JavaScript</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('jQuery')">jQuery</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('EmailJS')">EmailJS</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Ajax')">AJAX</button>
                     <br>
                     <p class="text-light">Back-End</p>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('Python')">Python</button>
@@ -98,11 +99,9 @@
                     <p class="text-light">Other</p>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('SQLite_DB')">SQLite DB</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('MySQL_DB')">MySQL DB</button>
-                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('MongoDB')">Mongo DB</button>
-                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('AWS_S3')">AWS S3</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('HTMX')">HTMX</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('AWS_Lightsail')">AWS Lightsail</button>
-                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Heroku')">Heroku</button>
-                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('API')">API's</button>
+                    <button class="btn btn-secondary btn-sm" onclick="filterSelection('Stripe')">Stripe API</button>
                     <button class="btn btn-secondary btn-sm" onclick="filterSelection('Google_API')">Google Map API</button>
                 </div>
             </div>
@@ -113,7 +112,23 @@
                     </div>
                 </div>
                 <div id="projects-row" class="row">
-                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django MySQL_DB AWS_Lightsail Full_Custom">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django MySQL_DB Full_Custom Stripe Ajax HTMX">
+                        <div class="project-item hvr-sweep-to-bottom">
+                            <img src="/assets/images/artsy-image.png" class="img-fluid" alt="artsy image django app">
+                            <div class="project-item-overlay">
+                                <h4><a href="https://artsy.ipdev.eu" target="_blank" rel="noopener">Artsy Image</a></h4>
+                                <ul class="text-center">
+                                    <li>Commercial project</li>
+                                    <li>Python/Django</li>
+                                    <li>HTML5, HTMX, CSS3</li>
+                                    <li>Bootstrap5, jQuery</li>
+                                    <li>AJAX, JSON</li>
+                                    <li>MySQL, Stripe API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django MySQL_DB AWS_Lightsail Full_Custom HTMX">
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/mhg_app.png" class="img-fluid" alt="django app">
                             <div class="project-item-overlay">
@@ -123,14 +138,13 @@
                                     <li>Python/Django</li>
                                     <li>HTML5, HTMX, CSS3</li>
                                     <li>Bootstrap5, jQuery</li>
-                                    <li>AJAX, JSON</li>
-                                    <li>(Please contact me for the</li>
-                                    <li>test login details)</li>
+                                    <li>AJAX, JSON, MySQL</li>
+                                    <li>AWS Lightsail, Apache2</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django MySQL_DB Full_Custom">
+                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django MySQL_DB Full_Custom Stripe HTMX">
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/your-next-car.png" class="img-fluid" alt="django app">
                             <div class="project-item-overlay">
@@ -143,37 +157,6 @@
                                     <li>AJAX, JSON</li>
                                     <li>Stripe API</li>
                                     <li>Beautiful Soap</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Django SQLite_DB AWS_S3 API Heroku Full_Custom">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/online-shop.png" class="img-fluid" alt="Online Shop">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro-online-shop.herokuapp.com/" target="_blank" rel="noopener">Online Shop</a></h4>
-                                <ul class="text-center">
-                                    <li>School project</li>
-                                    <li>Python/Django</li>
-                                    <li>AWS-S3, Boto, JSON</li>
-                                    <li>APIs, Heroku</li>
-                                    <li>HTML5, CSS3</li>
-                                    <li>Bootstrap, jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi Woocommerce HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/better-boxing.png" class="img-fluid" alt="Better Boxing">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://betterboxing.universalwebdesigns.co.uk/" target="_blank" rel="noopener">BB</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Woocommerce</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
                                 </ul>
                             </div>
                         </div>
@@ -223,50 +206,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery API Full_Custom">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/jquery-ajax-api.png" class="img-fluid" alt="Test API">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro.github.io/csc_app/contact.html" target="_blank" rel="noopener">API Project</a></h4>
-                                <ul class="text-center">
-                                    <li>Personal project</li>
-                                    <li>HTML5, CSS3</li>
-                                    <li>Bootstrap, jQuery</li>
-                                    <li>Application Programming Interface</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/energycentric.png" class="img-fluid" alt="Energycentric">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://energycentric.co.uk/" target="_blank" rel="noopener">Energycentric</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Divi</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressElementor HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/globewebdesign.png" class="img-fluid" alt="GlobeWebDesign">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://globewebdesign.eu" target="_blank" rel="noopener">GlobeWebDesign</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Elementor</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
                         <div class="project-item hvr-sweep-to-bottom">
                             <img src="/assets/images/universal_web_design.png" class="img-fluid" alt="Universal Web Design">
@@ -278,82 +217,6 @@
                                     <li>Custom HTML</li>
                                     <li>Custom CSS</li>
                                     <li>Custom jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/jh-valeting.png" class="img-fluid" alt="JH Valeting">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://www.jh-valeting.universalwebdesigner.co.uk/" target="_blank" rel="noopener">JH Valeting</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Divi</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/creativa-venetian.png" class="img-fluid" alt="Creativa VD">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://www.creativa-venetian-designs.co.uk/" target="_blank" rel="noopener">Creativa VD</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Divi</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/glamouricious.png" class="img-fluid" alt="Glamouricious">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://www.glamouricious.co.uk/" target="_blank" rel="noopener">Glamouricious</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Divi</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter WordpressDivi HTML5 CSS3 JavaScript jQuery">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/relentless-legal-solutions.png" class="img-fluid" alt="Relentless LS">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://relentless-legal-solutions.com/" target="_blank" rel="noopener">Relentless LS</a></h4>
-                                <ul class="text-center">
-                                    <li>Commercial project</li>
-                                    <li>Wordpress, Divi</li>
-                                    <li>Custom HTML</li>
-                                    <li>Custom CSS</li>
-                                    <li>Custom JavaScript/jQuery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 filter HTML5 CSS3 Bootstrap4 jQuery Python Flask MongoDB Heroku Full_Custom">
-                        <div class="project-item hvr-sweep-to-bottom">
-                            <img src="/assets/images/shifts-manager.png" class="img-fluid" alt="Shifts Manager">
-                            <div class="project-item-overlay">
-                                <h4><a href="https://iulianpro-shifts-manager.herokuapp.com/" target="_blank" rel="noopener">Shifts Manager</a></h4>
-                                <ul class="text-center">
-                                    <li>School project</li>
-                                    <li>HTML5, CSS3</li>
-                                    <li>Bootstrap4</li>
-                                    <li>jQuery</li>
-                                    <li>Python/Flask</li>
-                                    <li>MongoDB</li>
                                 </ul>
                             </div>
                         </div>
